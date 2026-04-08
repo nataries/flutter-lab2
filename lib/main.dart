@@ -7,13 +7,15 @@ void main() {
       home: (Scaffold(
         body: Container(
           decoration: BoxDecoration(
-            gradient: LinearGradient(colors:
-            [
-              Colors.white,
-              Colors.blue,
-              Colors.red,
-            ], 
-            )
+            gradient: LinearGradient(
+              colors: [
+                Colors.white,
+                Colors.blue,
+                Colors.red,
+              ],
+              begin: Alignment.topCenter,
+              end: Alignment.bottomCenter,
+            ),
           ),
           child: Center(
             child: Text("Hello world!"),
