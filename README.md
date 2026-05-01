@@ -1,17 +1,32 @@
-# first_flutter_app_isp231
+# Лабораторная работа №2. Знакомство с Flutter
 
-A new Flutter project.
+## Описание
 
-## Getting Started
+Проект "Триколор" - приложение, которое при запуске отображает окно с градиентным фоном флага и приветственной надписью в центре.
 
-This project is a starting point for a Flutter application.
+**ФИО:** Заставная Наталия
 
-A few resources to get you started if this is your first Flutter project:
+**Группа:** ИСП-231
 
-- [Learn Flutter](https://docs.flutter.dev/get-started/learn-flutter)
-- [Write your first Flutter app](https://docs.flutter.dev/get-started/codelab)
-- [Flutter learning resources](https://docs.flutter.dev/reference/learning-resources)
+## Стек и версии
 
-For help getting started with Flutter development, view the
-[online documentation](https://docs.flutter.dev/), which offers tutorials,
-samples, guidance on mobile development, and a full API reference.
+1. IDE: VS Code
+2. Flutter 3.41.1
+3. Dart SDK version: 3.11.0 (stable)
+4. Платформа: Web (Chrome)
+
+## Скриншот приложения
+![Скриншот приложения](https://github.com/nataries/flutter-lab2/blob/main/img/step9_Zastavnaya.png)
+## Как запустить
+
+1. Клонировать репозиторий `https://github.com/nataries/flutter-lab2.git`
+2. Перейти в папку проекта
+3. Выполнить `flutter pub get`
+4. Запустить командой `flutter run -d chrome`
+
+## Что изучили
+
+1. Работа с виджетами в Flutter (StatelessWidget и StatefulWidget)
+2. Запуск приложения через горячие клавиши
+3. Управление состоянием при помощи setState()
+4. Стилизация при помощи инструментов Flutter
